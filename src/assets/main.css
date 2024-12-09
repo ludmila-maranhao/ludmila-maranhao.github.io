@@ -1,0 +1,48 @@
+/* Lista de cores */
+
+:root {
+  --branco: #FFF;
+  --preto: #000;
+  --cinza-claro: #EAEAEA;
+  --cinza-medio: #BBB;
+  --cinza-escuro: #555;
+  --vermelho: #E80A0A;
+  --vermelho-escuro: #C80505;
+  --verde: #008C42;
+  --azul: #0077FF;
+  --rosa: #FFEFEF;
+}
+
+
+/* Estilos principais */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: var(--rosa);
+}
+
+main,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--branco);
+  min-height: 250px;
+  max-width: 410px;
+  padding: 45px 40px 30px;
+  border-radius: 10px;
+  margin: 40px auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 10px;
+}
